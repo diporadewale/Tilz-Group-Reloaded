@@ -22,7 +22,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useSeoMeta } from "@/hooks/use-seo-meta";
-import { BreadcrumbJsonLd } from "@/components/json-ld";
+import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/json-ld";
 
 export default function EcommerceConsulting() {
   useSeoMeta({
@@ -33,6 +33,12 @@ export default function EcommerceConsulting() {
   });
   return (
     <div className="pt-20">
+      <ServiceJsonLd
+        name="Ecommerce & Marketplace Consulting"
+        description="Expert marketplace consulting for Amazon UK, eBay, and beyond. Tilz Group helps brands optimise listings, build advertising strategies, and scale profitably across global channels."
+        path="/services/ecommerce-consulting"
+        serviceType="Marketplace Consulting"
+      />
       <ConsultingHero />
       <WhoThisIsFor />
       <MarketplaceExpertise />
