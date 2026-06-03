@@ -19,7 +19,7 @@ import {
   Warehouse,
 } from "lucide-react";
 import { useSeoMeta } from "@/hooks/use-seo-meta";
-import { BreadcrumbJsonLd } from "@/components/json-ld";
+import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/json-ld";
 
 export default function Logistics() {
   useSeoMeta({
@@ -30,6 +30,12 @@ export default function Logistics() {
   });
   return (
     <div className="pt-20">
+      <ServiceJsonLd
+        name="3PL Storage & Logistics"
+        description="UK-based third-party logistics (3PL) storage and fulfilment from Leeds. Real-time inventory management, same-day dispatch, and full ecommerce integration for brands of all sizes."
+        path="/services/3pl-logistics"
+        serviceType="Third-Party Logistics"
+      />
       <LogisticsHero />
       <WarehousingSection />
       <CapabilitiesGrid />
