@@ -164,3 +164,41 @@ export function BreadcrumbJsonLd({ items }: BreadcrumbJsonLdProps) {
     />
   );
 }
+
+interface ServiceJsonLdProps {
+  name: string;
+  description: string;
+  path: string;
+  serviceType?: string;
+}
+
+export function ServiceJsonLd({ name, description, path, serviceType }: ServiceJsonLdProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name,
+    description,
+    serviceType: serviceType || name,
+    url: `https://tilzgroup.com${path}`,
+    provider: {
+      "@type": "Organization",
+      "@id": "https://tilzgroup.com/#organization",
+      name: "Tilz Group",
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "United Kingdom",
+    },
+    availableChannel: {
+      "@type": "ServiceChannel",
+      serviceUrl: `https://tilzgroup.com${path}`,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
