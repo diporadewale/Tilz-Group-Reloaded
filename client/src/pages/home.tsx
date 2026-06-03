@@ -233,10 +233,10 @@ function CoreServices() {
 
 function OurBrands() {
   const brands = [
-    { icon: Building2, name: "Tilz Collection", desc: "Curated consumer products for modern living" },
-    { icon: ShieldCheck, name: "Tilz Gear", desc: "Quality accessories and equipment" },
-    { icon: Boxes, name: "TilzMart", desc: "Multi-category retail marketplace" },
-    { icon: Gamepad2, name: "Tilz Toys", desc: "Fun, safe, and innovative toys for children" },
+    { icon: Building2, name: "Tilz Collection", desc: "Curated consumer products for modern living", img: "data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'400'%20height%3D'200'%20viewBox%3D'0%200%20400%20200'%3E%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%3E%3Cstop%20offset%3D'0'%20stop-color%3D'%231E40AF'%2F%3E%3Cstop%20offset%3D'1'%20stop-color%3D'%230EA5E9'%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D'400'%20height%3D'200'%20fill%3D'url(%23g)'%2F%3E%3Ctext%20x%3D'200'%20y%3D'100'%20font-family%3D'Poppins%2CArial%2Csans-serif'%20font-size%3D'22'%20font-weight%3D'700'%20fill%3D'%23ffffff'%20text-anchor%3D'middle'%20dominant-baseline%3D'middle'%3ETilz%20Collection%3C%2Ftext%3E%3Ctext%20x%3D'200'%20y%3D'170'%20font-family%3D'Inter%2CArial%2Csans-serif'%20font-size%3D'12'%20fill%3D'%23ffffff'%20fill-opacity%3D'0.75'%20text-anchor%3D'middle'%3EPlaceholder%20image%3C%2Ftext%3E%3C%2Fsvg%3E" },
+    { icon: ShieldCheck, name: "Tilz Gear", desc: "Quality accessories and equipment", img: "data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'400'%20height%3D'200'%20viewBox%3D'0%200%20400%20200'%3E%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%3E%3Cstop%20offset%3D'0'%20stop-color%3D'%230F172A'%2F%3E%3Cstop%20offset%3D'1'%20stop-color%3D'%231E40AF'%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D'400'%20height%3D'200'%20fill%3D'url(%23g)'%2F%3E%3Ctext%20x%3D'200'%20y%3D'100'%20font-family%3D'Poppins%2CArial%2Csans-serif'%20font-size%3D'22'%20font-weight%3D'700'%20fill%3D'%23ffffff'%20text-anchor%3D'middle'%20dominant-baseline%3D'middle'%3ETilz%20Gear%3C%2Ftext%3E%3Ctext%20x%3D'200'%20y%3D'170'%20font-family%3D'Inter%2CArial%2Csans-serif'%20font-size%3D'12'%20fill%3D'%23ffffff'%20fill-opacity%3D'0.75'%20text-anchor%3D'middle'%3EPlaceholder%20image%3C%2Ftext%3E%3C%2Fsvg%3E" },
+    { icon: Boxes, name: "TilzMart", desc: "Multi-category retail marketplace", img: "data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'400'%20height%3D'200'%20viewBox%3D'0%200%20400%20200'%3E%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%3E%3Cstop%20offset%3D'0'%20stop-color%3D'%230EA5E9'%2F%3E%3Cstop%20offset%3D'1'%20stop-color%3D'%231E40AF'%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D'400'%20height%3D'200'%20fill%3D'url(%23g)'%2F%3E%3Ctext%20x%3D'200'%20y%3D'100'%20font-family%3D'Poppins%2CArial%2Csans-serif'%20font-size%3D'22'%20font-weight%3D'700'%20fill%3D'%23ffffff'%20text-anchor%3D'middle'%20dominant-baseline%3D'middle'%3ETilzMart%3C%2Ftext%3E%3Ctext%20x%3D'200'%20y%3D'170'%20font-family%3D'Inter%2CArial%2Csans-serif'%20font-size%3D'12'%20fill%3D'%23ffffff'%20fill-opacity%3D'0.75'%20text-anchor%3D'middle'%3EPlaceholder%20image%3C%2Ftext%3E%3C%2Fsvg%3E" },
+    { icon: Gamepad2, name: "Tilz Toys", desc: "Fun, safe, and innovative toys for children", img: "data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'400'%20height%3D'200'%20viewBox%3D'0%200%20400%20200'%3E%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%3E%3Cstop%20offset%3D'0'%20stop-color%3D'%231E40AF'%2F%3E%3Cstop%20offset%3D'1'%20stop-color%3D'%230F172A'%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D'400'%20height%3D'200'%20fill%3D'url(%23g)'%2F%3E%3Ctext%20x%3D'200'%20y%3D'100'%20font-family%3D'Poppins%2CArial%2Csans-serif'%20font-size%3D'22'%20font-weight%3D'700'%20fill%3D'%23ffffff'%20text-anchor%3D'middle'%20dominant-baseline%3D'middle'%3ETilz%20Toys%3C%2Ftext%3E%3Ctext%20x%3D'200'%20y%3D'170'%20font-family%3D'Inter%2CArial%2Csans-serif'%20font-size%3D'12'%20fill%3D'%23ffffff'%20fill-opacity%3D'0.75'%20text-anchor%3D'middle'%3EPlaceholder%20image%3C%2Ftext%3E%3C%2Fsvg%3E" },
   ];
 
   return (
@@ -256,6 +256,15 @@ function OurBrands() {
           {brands.map((brand) => (
             <Card key={brand.name} className="bg-[#F1F5F9] border-0 p-0 overflow-visible group" data-testid={`card-brand-${brand.name.toLowerCase().replace(/\s+/g, '-')}`}>
               <div className="p-8 text-center">
+                {/* Brand image placeholder — swap brand.img for real product photography */}
+                <img
+                  src={brand.img}
+                  alt={`${brand.name} placeholder image`}
+                  className="w-full h-32 object-cover rounded-xl mb-5"
+                  loading="lazy"
+                  width={400}
+                  height={200}
+                />
                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-5 shadow-sm">
                   <brand.icon className="w-8 h-8 text-[#1E40AF]" />
                 </div>
