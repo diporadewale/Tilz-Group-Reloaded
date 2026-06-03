@@ -1,0 +1,65 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="55%" style="stop-color:#1E293B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="monogram-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.03" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Subtle grid lines -->
+  <g stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="126" x2="1200" y2="126" />
+    <line x1="0" y1="252" x2="1200" y2="252" />
+    <line x1="0" y1="378" x2="1200" y2="378" />
+    <line x1="0" y1="504" x2="1200" y2="504" />
+    <line x1="240" y1="0" x2="240" y2="630" />
+    <line x1="480" y1="0" x2="480" y2="630" />
+    <line x1="720" y1="0" x2="720" y2="630" />
+    <line x1="960" y1="0" x2="960" y2="630" />
+  </g>
+
+  <!-- Large decorative TG background monogram -->
+  <text x="820" y="460" font-family="Georgia, serif" font-weight="700" font-size="420" fill="url(#monogram-grad)" letter-spacing="-20">TG</text>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="180" width="5" height="270" fill="url(#accent)" rx="2" />
+
+  <!-- Category label -->
+  <rect x="104" y="182" width="180" height="28" rx="4" fill="#0EA5E9" fill-opacity="0.15" />
+  <text x="117" y="201" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#38BDF8" letter-spacing="2">TILZ GROUP</text>
+
+  <!-- Main headline -->
+  <text x="104" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#FFFFFF" letter-spacing="-2">Commerce</text>
+  <text x="104" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#FFFFFF" letter-spacing="-2">Infrastructure</text>
+
+  <!-- Tagline -->
+  <text x="107" y="428" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#94A3B8" letter-spacing="0.5">for Brands Built to Scale</text>
+
+  <!-- Bottom accent line -->
+  <rect x="104" y="462" width="320" height="2" fill="url(#accent)" rx="1" />
+
+  <!-- Three verticals pills -->
+  <rect x="104" y="488" width="168" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+  <text x="188" y="510" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#CBD5E1" text-anchor="middle">Marketplace Consulting</text>
+
+  <rect x="284" y="488" width="110" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+  <text x="339" y="510" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#CBD5E1" text-anchor="middle">3PL Logistics</text>
+
+  <rect x="406" y="488" width="118" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+  <text x="465" y="510" font-family="Arial, sans-serif" font-size="13" font-weight="500" fill="#CBD5E1" text-anchor="middle">B2B Trade</text>
+
+  <!-- Domain -->
+  <text x="104" y="580" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#475569" letter-spacing="1">tilzgroup.com</text>
+</svg>
