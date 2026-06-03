@@ -1,0 +1,589 @@
+Perfect — I’m going to structure this properly as if I’m delivering it to a design agency and dev team.
+
+This will include:
+
+    🌐 Parent corporate structure
+
+    🧭 Navigation hierarchy
+
+    🏗 Service architecture
+
+    🏷 Brand architecture
+
+    🔐 3PL portal structure
+
+    🚀 Hercommerce separation
+
+    🔎 SEO logic
+
+We are building Tilz Group as a serious multi-vertical business, not just a website.
+🏢 MASTER DIGITAL STRUCTURE
+
+TilzGroup.com
+│
+├── Home
+├── About
+├── Services
+├── Brands
+├── Insights
+├── Partnerships
+├── Contact
+└── Client Portal (Login Button)
+
+1️⃣ TILZGROUP.COM (Corporate Website)
+🌍 HOME
+
+Purpose:
+
+    Communicate credibility
+
+    Explain group structure
+
+    Funnel to services & brands
+
+Sections:
+
+    Hero: “Global Ecommerce, Logistics & Digital Trade Solutions”
+
+    Our Story Snapshot
+
+    Our Services Overview (3 cards)
+
+    Our Brands Overview (4 cards)
+
+    Technology & Infrastructure
+
+    Partners & Certifications
+
+    Call To Action (Work With Us / Become a Partner)
+
+👤 ABOUT
+
+/about
+│
+├── Our Story
+├── Mission & Vision
+├── Leadership
+├── Infrastructure & Capability
+└── Global Footprint
+
+Purpose:
+
+    Build investor & partner trust
+
+    Show operational credibility
+
+2️⃣ SERVICES (Core Revenue Engine)
+
+/services
+│
+├── Ecommerce & Marketplace Consulting
+├── 3PL Storage & Logistics
+└── Hercommerce Platform
+
+Each service gets its own deep page.
+A️⃣ Ecommerce & Marketplace Consulting
+
+/services/ecommerce-consulting
+│
+├── Overview
+├── Amazon Marketplace Management
+├── International Expansion
+├── Account Management & Ads
+├── Marketplace Setup for Manufacturers
+├── Case Studies
+└── Book a Strategy Call
+
+Goal:
+Lead generation.
+B️⃣ 3PL Storage & Logistics
+
+/services/3pl-logistics
+│
+├── Overview
+├── Warehousing & Storage
+├── Expiry & Batch Management
+├── Bundling & Kitting
+├── Pick, Pack & Dispatch
+├── Technology (Portal Preview)
+├── Pricing Model
+├── Onboarding Process
+└── Request Storage Assessment
+
+Then:
+🔐 Client Portal (Separate but linked)
+
+portal.tilzgroup.com
+│
+├── Login
+├── Dashboard
+│   ├── My Inventory
+│   ├── Download Inventory
+│   ├── Request Dispatch
+│   ├── Dispatch History
+│   └── Messages
+└── Support
+
+This is hosted on Softr but branded under Tilz.
+C️⃣ Hercommerce (Strategic Asset)
+
+On TilzGroup:
+
+/services/hercommerce
+│
+├── What is Hercommerce?
+├── Who It’s For
+├── Digital Trade Marketplace
+├── 3PL Integration
+├── Partner With Us
+└── Visit Platform
+
+Then redirect to:
+
+    Hercommerce.com (separate platform)
+
+3️⃣ BRANDS ARCHITECTURE
+
+/brands
+│
+├── Tilz Collection
+├── Tilz Gear
+├── TilzMart
+└── Tilz Toys
+
+Each brand section includes:
+
+    Brand story
+
+    Product categories
+
+    Retail presence
+
+    Marketplace presence
+
+    Link to brand website
+
+Brand Website Model (Example)
+TilzCollection.com
+
+Home
+Shop
+Wholesale
+Recipes / Content
+About
+Contact
+
+Each brand should operate independently from the corporate site.
+4️⃣ INSIGHTS (Authority Builder)
+
+/insights
+│
+├── Ecommerce Strategy
+├── Logistics & Supply Chain
+├── Export & Trade
+├── Marketplace Trends
+└── Company Updates
+
+Purpose:
+
+    SEO
+
+    Thought leadership
+
+    Investor credibility
+
+5️⃣ PARTNERSHIPS
+
+/partnerships
+│
+├── Trade Organisations
+├── Manufacturers
+├── Technology Partners
+├── Retail & Distribution
+└── Work With Us
+
+Important for your SheTrades & international positioning.
+6️⃣ CONTACT STRUCTURE
+
+/contact
+│
+├── General Enquiries
+├── 3PL Enquiry Form
+├── Consulting Enquiry
+└── Media / Partnerships
+
+Each form routes to different pipeline internally.
+7️⃣ GLOBAL NAVIGATION STRUCTURE (Top Menu)
+
+Top Bar:
+
+About | Services | Brands | Insights | Partnerships | Contact | Client Portal
+
+CTA Button:
+“Book a Strategy Call”
+8️⃣ DOMAIN STRUCTURE SUMMARY
+Function	URL Structure
+Corporate	TilzGroup.com
+3PL Portal	portal.tilzgroup.com
+Consulting	tilzgroup.com/services/ecommerce-consulting
+Logistics	tilzgroup.com/services/3pl-logistics
+Hercommerce	Hercommerce.com
+Brands	Separate domains
+9️⃣ SEO STRATEGY LOGIC
+
+    TilzGroup builds authority in:
+
+        Ecommerce consulting
+
+        3PL UK
+
+        Amazon consulting
+
+        Digital trade
+
+    Brand domains build consumer SEO.
+
+    Hercommerce builds B2B platform SEO.
+
+No domain dilution.
+🔟 What This Architecture Enables
+
+✔ Clean corporate positioning
+✔ Service revenue growth
+✔ Separate asset valuation (Hercommerce)
+✔ Brand independence
+✔ Portal security
+✔ Investor-ready structure
+✔ Scalability without rebuild
+🚀 Timeline to Execute Properly
+
+Phase 1 (Weeks 1–4):
+
+    Corporate site build
+
+    Service pages
+
+    Brand overview
+
+    Portal setup
+
+Phase 2 (Weeks 5–8):
+
+    Content build
+
+    SEO foundations
+
+    Analytics & CRM integration
+
+Phase 3:
+
+    Hercommerce separate deployment
+
+If you’d like next, I can:
+
+    Design the Homepage wireframe layout
+
+    Create the 3PL landing page structure in detail
+
+    Build the Hercommerce product positioning page
+
+    Or give you a 90-day execution roadmap with tasks per week**
+
+Tell me which layer you want to go deeper into.
+
+
+Digital Enterprise Applications
+You’re viewing user-generated content that may be unverified or unsafe.
+
+Perfect — I’m going to structure this properly as if I’m delivering it to a design agency and dev team.
+
+This will include:
+
+    🌐 Parent corporate structure
+
+    🧭 Navigation hierarchy
+
+    🏗 Service architecture
+
+    🏷 Brand architecture
+
+    🔐 3PL portal structure
+
+    🚀 Hercommerce separation
+
+    🔎 SEO logic
+
+We are building Tilz Group as a serious multi-vertical business, not just a website.
+🏢 MASTER DIGITAL STRUCTURE
+
+TilzGroup.com
+│
+├── Home
+├── About
+├── Services
+├── Brands
+├── Insights
+├── Partnerships
+├── Contact
+└── Client Portal (Login Button)
+
+1️⃣ TILZGROUP.COM (Corporate Website)
+🌍 HOME
+
+Purpose:
+
+    Communicate credibility
+
+    Explain group structure
+
+    Funnel to services & brands
+
+Sections:
+
+    Hero: “Global Ecommerce, Logistics & Digital Trade Solutions”
+
+    Our Story Snapshot
+
+    Our Services Overview (3 cards)
+
+    Our Brands Overview (4 cards)
+
+    Technology & Infrastructure
+
+    Partners & Certifications
+
+    Call To Action (Work With Us / Become a Partner)
+
+👤 ABOUT
+
+/about
+│
+├── Our Story
+├── Mission & Vision
+├── Leadership
+├── Infrastructure & Capability
+└── Global Footprint
+
+Purpose:
+
+    Build investor & partner trust
+
+    Show operational credibility
+
+2️⃣ SERVICES (Core Revenue Engine)
+
+/services
+│
+├── Ecommerce & Marketplace Consulting
+├── 3PL Storage & Logistics
+└── Hercommerce Platform
+
+Each service gets its own deep page.
+A️⃣ Ecommerce & Marketplace Consulting
+
+/services/ecommerce-consulting
+│
+├── Overview
+├── Amazon Marketplace Management
+├── International Expansion
+├── Account Management & Ads
+├── Marketplace Setup for Manufacturers
+├── Case Studies
+└── Book a Strategy Call
+
+Goal:
+Lead generation.
+B️⃣ 3PL Storage & Logistics
+
+/services/3pl-logistics
+│
+├── Overview
+├── Warehousing & Storage
+├── Expiry & Batch Management
+├── Bundling & Kitting
+├── Pick, Pack & Dispatch
+├── Technology (Portal Preview)
+├── Pricing Model
+├── Onboarding Process
+└── Request Storage Assessment
+
+Then:
+🔐 Client Portal (Separate but linked)
+
+portal.tilzgroup.com
+│
+├── Login
+├── Dashboard
+│   ├── My Inventory
+│   ├── Download Inventory
+│   ├── Request Dispatch
+│   ├── Dispatch History
+│   └── Messages
+└── Support
+
+This is hosted on Softr but branded under Tilz.
+C️⃣ Hercommerce (Strategic Asset)
+
+On TilzGroup:
+
+/services/hercommerce
+│
+├── What is Hercommerce?
+├── Who It’s For
+├── Digital Trade Marketplace
+├── 3PL Integration
+├── Partner With Us
+└── Visit Platform
+
+Then redirect to:
+
+    Hercommerce.com (separate platform)
+
+3️⃣ BRANDS ARCHITECTURE
+
+/brands
+│
+├── Tilz Collection
+├── Tilz Gear
+├── TilzMart
+└── Tilz Toys
+
+Each brand section includes:
+
+    Brand story
+
+    Product categories
+
+    Retail presence
+
+    Marketplace presence
+
+    Link to brand website
+
+Brand Website Model (Example)
+TilzCollection.com
+
+Home
+Shop
+Wholesale
+Recipes / Content
+About
+Contact
+
+Each brand should operate independently from the corporate site.
+4️⃣ INSIGHTS (Authority Builder)
+
+/insights
+│
+├── Ecommerce Strategy
+├── Logistics & Supply Chain
+├── Export & Trade
+├── Marketplace Trends
+└── Company Updates
+
+Purpose:
+
+    SEO
+
+    Thought leadership
+
+    Investor credibility
+
+5️⃣ PARTNERSHIPS
+
+/partnerships
+│
+├── Trade Organisations
+├── Manufacturers
+├── Technology Partners
+├── Retail & Distribution
+└── Work With Us
+
+Important for your SheTrades & international positioning.
+6️⃣ CONTACT STRUCTURE
+
+/contact
+│
+├── General Enquiries
+├── 3PL Enquiry Form
+├── Consulting Enquiry
+└── Media / Partnerships
+
+Each form routes to different pipeline internally.
+7️⃣ GLOBAL NAVIGATION STRUCTURE (Top Menu)
+
+Top Bar:
+
+About | Services | Brands | Insights | Partnerships | Contact | Client Portal
+
+CTA Button:
+“Book a Strategy Call”
+8️⃣ DOMAIN STRUCTURE SUMMARY
+Function	URL Structure
+Corporate	TilzGroup.com
+3PL Portal	portal.tilzgroup.com
+Consulting	tilzgroup.com/services/ecommerce-consulting
+Logistics	tilzgroup.com/services/3pl-logistics
+Hercommerce	Hercommerce.com
+Brands	Separate domains
+9️⃣ SEO STRATEGY LOGIC
+
+    TilzGroup builds authority in:
+
+        Ecommerce consulting
+
+        3PL UK
+
+        Amazon consulting
+
+        Digital trade
+
+    Brand domains build consumer SEO.
+
+    Hercommerce builds B2B platform SEO.
+
+No domain dilution.
+🔟 What This Architecture Enables
+
+✔ Clean corporate positioning
+✔ Service revenue growth
+✔ Separate asset valuation (Hercommerce)
+✔ Brand independence
+✔ Portal security
+✔ Investor-ready structure
+✔ Scalability without rebuild
+🚀 Timeline to Execute Properly
+
+Phase 1 (Weeks 1–4):
+
+    Corporate site build
+
+    Service pages
+
+    Brand overview
+
+    Portal setup
+
+Phase 2 (Weeks 5–8):
+
+    Content build
+
+    SEO foundations
+
+    Analytics & CRM integration
+
+Phase 3:
+
+    Hercommerce separate deployment
+
+If you’d like next, I can:
+
+    Design the Homepage wireframe layout
+
+    Create the 3PL landing page structure in detail
+
+    Build the Hercommerce product positioning page
+
+    Or give you a 90-day execution roadmap with tasks per week**
+
+Tell me which layer you want to go deeper into.
