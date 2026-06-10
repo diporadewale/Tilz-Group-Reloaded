@@ -82,6 +82,16 @@ function HeroSection() {
           <div className="relative z-10 hidden lg:block">
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8">
+              {/* Hero image placeholder — swap src for real warehouse/commerce photography */}
+              <img
+                src="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'800'%20height%3D'500'%20viewBox%3D'0%200%20800%20500'%3E%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0'%20y1%3D'0'%20x2%3D'1'%20y2%3D'1'%3E%3Cstop%20offset%3D'0'%20stop-color%3D'%231E40AF'%2F%3E%3Cstop%20offset%3D'1'%20stop-color%3D'%230EA5E9'%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D'800'%20height%3D'500'%20fill%3D'url(%23g)'%2F%3E%3Cg%20fill%3D'%23ffffff'%20fill-opacity%3D'0.15'%3E%3Crect%20x%3D'80'%20y%3D'300'%20width%3D'160'%20height%3D'120'%20rx%3D'8'%2F%3E%3Crect%20x%3D'260'%20y%3D'250'%20width%3D'160'%20height%3D'170'%20rx%3D'8'%2F%3E%3Crect%20x%3D'440'%20y%3D'200'%20width%3D'160'%20height%3D'220'%20rx%3D'8'%2F%3E%3Crect%20x%3D'620'%20y%3D'280'%20width%3D'100'%20height%3D'140'%20rx%3D'8'%2F%3E%3C%2Fg%3E%3Ctext%20x%3D'400'%20y%3D'150'%20font-family%3D'Poppins%2CArial%2Csans-serif'%20font-size%3D'30'%20font-weight%3D'700'%20fill%3D'%23ffffff'%20text-anchor%3D'middle'%3ETilz%20Group%20Commerce%20Infrastructure%3C%2Ftext%3E%3Ctext%20x%3D'400'%20y%3D'460'%20font-family%3D'Inter%2CArial%2Csans-serif'%20font-size%3D'16'%20fill%3D'%23ffffff'%20fill-opacity%3D'0.7'%20text-anchor%3D'middle'%3EPlaceholder%20%E2%80%94%20replace%20with%20photography%3C%2Ftext%3E%3C%2Fsvg%3E"
+                alt="Tilz Group commerce and fulfilment operations"
+                className="w-full h-auto rounded-xl mb-6 object-cover"
+                loading="eager"
+                width={800}
+                height={500}
+                data-testid="img-hero"
+              />
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/10 rounded-xl p-6 text-center">
                     <Globe className="w-8 h-8 text-[#0EA5E9] mx-auto mb-3" />
