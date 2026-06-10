@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
+import CookieConsent from "@/components/cookie-consent";
 import Home from "@/pages/home";
 import Services from "@/pages/services";
 import EcommerceConsulting from "@/pages/ecommerce-consulting";
@@ -37,6 +38,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <Navigation />
       <main className="flex-1">{children}</main>
       <Footer />
+      <CookieConsent />
     </div>
   );
 }
