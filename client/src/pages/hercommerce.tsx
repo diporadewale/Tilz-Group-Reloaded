@@ -17,7 +17,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useSeoMeta } from "@/hooks/use-seo-meta";
-import { BreadcrumbJsonLd } from "@/components/json-ld";
+import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/json-ld";
 
 export default function Hercommerce() {
   useSeoMeta({
@@ -28,6 +28,12 @@ export default function Hercommerce() {
   });
   return (
     <div className="pt-20">
+      <ServiceJsonLd
+        name="Hercommerce – Digital B2B Trade Platform"
+        description="Hercommerce by Tilz Group is a digital B2B trade platform connecting manufacturers and independent retailers across the UK and globally. Simplify cross-border wholesale trade."
+        path="/services/hercommerce"
+        serviceType="B2B Trade Platform"
+      />
       <HercommerceHero />
       <WhatIsHercommerce />
       <WhoItsFor />
