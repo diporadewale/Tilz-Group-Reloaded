@@ -233,10 +233,10 @@ function CoreServices() {
 
 function OurBrands() {
   const brands = [
-    { icon: Building2, name: "Tilz Collection", desc: "Curated consumer products for modern living" },
-    { icon: ShieldCheck, name: "Tilz Gear", desc: "Quality accessories and equipment" },
-    { icon: Boxes, name: "TilzMart", desc: "Multi-category retail marketplace" },
-    { icon: Gamepad2, name: "Tilz Toys", desc: "Fun, safe, and innovative toys for children" },
+    { icon: Building2, name: "Tilz Collection", desc: "Premium food gifts and artisan products", href: "https://tilzcollection.co.uk" },
+    { icon: ShieldCheck, name: "Tilz Gear", desc: "Quality accessories and equipment", href: null },
+    { icon: Boxes, name: "TilzMart", desc: "Multi-category retail marketplace", href: null },
+    { icon: Gamepad2, name: "Tilz Toys", desc: "Fun, safe, and innovative toys for children", href: null },
   ];
 
   return (
@@ -261,11 +261,17 @@ function OurBrands() {
                 </div>
                 <h3 className="text-lg font-bold text-[#0F172A] font-['Poppins'] mb-2">{brand.name}</h3>
                 <p className="text-[#64748B] text-sm mb-4">{brand.desc}</p>
-                <Link href="/brands">
-                  <span className="inline-flex items-center gap-1 text-[#1E40AF] font-semibold text-sm cursor-pointer group-hover:gap-2 transition-all">
-                    Visit Brand <ArrowRight className="w-3 h-3" />
+                {brand.href ? (
+                  <a href={brand.href} target="_blank" rel="noopener noreferrer" data-testid={`link-visit-${brand.name.toLowerCase().replace(/\s+/g, "-")}`}>
+                    <span className="inline-flex items-center gap-1 text-[#1E40AF] font-semibold text-sm cursor-pointer group-hover:gap-2 transition-all">
+                      Visit Brand <ArrowRight className="w-3 h-3" />
+                    </span>
+                  </a>
+                ) : (
+                  <span className="inline-flex items-center gap-1 text-[#94A3B8] font-semibold text-sm">
+                    Coming Soon
                   </span>
-                </Link>
+                )}
               </div>
             </Card>
           ))}
